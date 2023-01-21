@@ -1,4 +1,4 @@
-const slides = document.querySelectorAll('.slide__background');
+const slides = document.querySelectorAll('.slide');
 const next = document.querySelector('#next');
 const prev = document.querySelector('#prev');
 const auto = false; // Auto scroll

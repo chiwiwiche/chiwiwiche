@@ -438,12 +438,11 @@ nav{
 
 
 /*PORFOLIO************************************************************/
-
 .section__portfolio{
     display: grid;
     gap: 4rem;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 400px);
+    grid-template-rows: repeat(4, 400px);
     padding: 6rem 2rem;
 }
 .article__portfolio{
@@ -493,13 +492,20 @@ nav{
     font-size: var(--fs-text);
     font-weight: 200;
     letter-spacing: 3px;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.8);
 }
 .portfolio__company__link i{
     color: #a7a7a7;
     font-size: var(--fs-text);
 }
   
-
+.flags{
+    border-radius: 4px;
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+    width: auto;
+}
  
 
 /***********************************************************PORTFOLIO*/
@@ -515,10 +521,6 @@ nav{
     padding: 0 2rem;
     width: 100%;
 }
-/* .article__about{
-    
-} */
-
 .div__about__description{
     background: var(--main-darker-grey);
     border-radius: 3px;
@@ -769,7 +771,7 @@ nav{
     .section__portfolio{
         gap: 4rem;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(6, 400px);
+        grid-template-rows: repeat(7, 400px);
     }
     .portfolio__content__wrapper{
         margin: 0 auto;
@@ -873,7 +875,7 @@ nav{
 @media only screen and (max-width: 480px) {
     
     .article__jumbotron{
-        border-radius: none;
+        border-radius: 0;
         bottom:0;
         box-shadow: none;
         left: 0;

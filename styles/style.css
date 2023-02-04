@@ -131,18 +131,13 @@ body {
     position:relative;
     width: 100%;
 }
-.box{
+.div__jumbrotron__container{
     justify-content:center;
-    min-height:100vh;
-    
-
 }
-.box video{
-    height:100%;
-    left:0;
+.jumbotron__img{
+    display: block;
+    height:100vh;
     object-fit: cover;
-    position:absolute;
-    top:0;
     width:100%;
 }
 

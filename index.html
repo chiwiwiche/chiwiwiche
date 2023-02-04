@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
       <title>Chiwiwiche | Developing Your Dreams</title>
       <link rel="stylesheet" href="styles/style.css" >
-      <script src="https://kit.fontawesome.com/ca4c9bee06.js" crossorigin="anonymous"></script>
+      <script src="https://kit.fontawesome.com/ca4c9bee06.js" crossorigin="anonymous" defer></script>
 
     </head>
 
@@ -17,10 +17,11 @@
             <header class="header__wrapper">
                 <div class="section__jumbotron">
 
-                    <div class="box">
-                        <video muted loop preload="auto" id="video-background" poster="img/jumbotron/chiwiwiche-developing-your-dreams-portrait.webp">
+                    <div class="div__jumbrotron__container">
+                        <!-- <video muted loop preload="auto" id="video-background" poster="img/jumbotron/chiwiwiche-developing-your-dreams-portrait.webp">
                             <source src="video/chiwiwiche-developing-your-dreams-video.mp4" type="video/mp4">
-                        </video>
+                        </video> -->
+                        <img src="img/jumbotron/chiwiwiche-jumbotron.webp" alt="Chiwiwiche, Developing your Dreams" class="jumbotron__img">
                     </div>
 
                     <div class="article__jumbotron">
@@ -347,7 +348,7 @@
 
         </div>
 
-    <script>
+    <!-- <script>
         /* play video twice as fast */
         document.querySelector('video').defaultPlaybackRate = 1.0;
         document.querySelector('video').play();
@@ -356,7 +357,7 @@
         document.querySelector('video').playbackRate = 0.4;
 
         
-    </script>
-    <script src="scripts/navbar.js"></script>
+    </script> -->
+    <script src="scripts/navbar.js" defer></script>
     </body>
 </html>

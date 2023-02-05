@@ -132,11 +132,13 @@ body {
     width: 100%;
 }
 .div__jumbrotron__container{
+    height: 100vh;
     justify-content:center;
+    width: 100%;
 }
 .jumbotron__img{
     display: block;
-    height:100vh;
+    height:100%;
     object-fit: cover;
     width:100%;
 }
@@ -927,10 +929,6 @@ nav{
 }
 
 
-@media only screen and (max-width: 397px) {
-
-    
-}
 
 
 @media only screen and (max-width: 320px) {
